@@ -12,6 +12,9 @@
 针对【2】进阶的LSTM、N-Beats表现也欠佳，也许是数据量比较小的原因，使用【3】中的一些常见序列数据增强方法也不能达到理想的结果。\
 反而对于最原始的LSTM，进行合理的分配训练集，可以对沃尔玛最新的销售额有让人有点满意的结果，因此尝试改进LSTM在短序列预测任务中的性能，在几个相关的kaggle竞赛的讨论区得到启发，猜想在小样本的任务中可以采取微调的方式提升LSTM性能。
 
+### 大致的做法：
 ![proposed architecture](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/proposed%20architecture.png)
+### 算法伪码：
 ![proposed algorithm](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/proposed%20algorithm.png)
+### 效果提升：
 ![comparison](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/comparison.jpg)
