@@ -10,7 +10,7 @@
 针对【1】，在参考的沃尔玛数据集中表现平平，时间维度的特征比较稀疏（促销活动等），尝试构建很多特征均不能达到好的结果。\
 ![no for classical](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/no%20for%20classical.png)
 针对【2】进阶的LSTM、N-Beats表现也欠佳，也许是数据量比较小的原因，使用【3】中的一些常见序列数据增强方法也不能达到理想的结果。\
-反而对于最原始的LSTM，进行合理的分配训练集，可以对沃尔玛最新的销售额有让人有点满意的结果，因此尝试改进LSTM在短序列预测任务中的性能，在几个相关的kaggle竞赛的讨论区得到启发，猜想在小样本的任务中可以采取微调的方式提升LSTM性能。
+反而对于最原始的LSTM，进行合理的分配训练集，可以对沃尔玛最新的销售额有让人有点满意的结果，因此尝试改进LSTM在短序列预测任务中的性能，在几个相关的kaggle竞赛的讨论区得到启发，猜想在小样本的任务中可以采取微调的方式提升LSTM性能，下面是简短介绍，详细内容请阅读Introduction中的paper。
 
 ### 大致的做法：
 ![proposed architecture](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/proposed%20architecture.png)
