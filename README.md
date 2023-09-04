@@ -1,5 +1,5 @@
 # FTG-LSTM
-### Problem definition
+### 定义问题
 ![Problem definition](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/Definition.png)
 上面的问题有几种基本的解决方法：\
 【1】将序列数据转换成没有前驱后继关系的单个分散的数据点，以此获得一个较大的数据集，使用SVM、Adaboost、XGBoost、DNN可以尝试解决。\
