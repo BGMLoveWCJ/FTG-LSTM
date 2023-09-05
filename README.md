@@ -1,4 +1,5 @@
 # FTG-LSTM
+#### {关闭广告拦截}
 ### 定义问题
 ![Problem definition](https://github.com/BGMLoveWCJ/FTG-LSTM/blob/main/Introduction/Definition.png)
 上面的问题有几种基本的解决方法：\
